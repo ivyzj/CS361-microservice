@@ -45,19 +45,19 @@
                                 <path
                                     d="M10.648 7.646a.5.5 0 0 1 .577-.093L15.002 9.5V13h-14v-1l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71z" />
                                 <path fill-rule="evenodd" d="M4.502 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                            </svg> VeryPicSum
+                            </svg> Free Image API For You
                         </h1>
-                        <p class="h4">Image API Placeholders.</p>
-                        <p class="text-muted">
-                            Find a list of the images <a href="{% url 'images:images' %}">here</a>
-                        </p>
+                        <p class="h4">Designed for developers and get started now for <b>free!</b></p>
+                        <!-- <p class="text-muted">
+                            Find all the images <a href="{% url 'images:images' %}">here</a>
+                        </p> -->
                     </div>
                 </section>
             </div>
             <div class=" d-none d-md-none d-md-block col-md-6">
                 <section class="jumbotron text-center bg-white px-0">
                     <div class="container">
-                        <img class="shadow mb-5 bg-white rounded" src="http://127.0.0.1:8000/api/id/2" width="100%">
+                        <img class="shadow mb-5 bg-white rounded" src="http://127.0.0.1:8000/api/id/8" width="100%">
                     </div>
                 </section>
             </div>
@@ -65,15 +65,20 @@
     </div>
     <section class="jumbotron text-center">
         <div class="container" style="max-width: 600px;">
-            <h1 class="txt-robo h1">Easy to use placeholders</h1>
-            <p>Just find an image and create a URL, not quite implemented width and height yet!</p>
+            <h1 class="txt-robo h1">Easy to use keywords</h1>
+            <!-- <p>Just find an image and create a URL, not quite implemented width and height yet!</p> -->
 
-            <pre class="bg-white pt-3"><code><a href="http://127.0.0.1:8000/api/id/2">https://127.0.0.1:8000/api/id/2</a></code>
+            <pre class="bg-white pt-3"><code><a href="http://127.0.0.1:8000/api/id/8">https://127.0.0.1:8000/api/{keyword}</a></code>
+            </pre>
+            <h1 class="txt-robo h1">Or just a random image we pick for you</h1>
+            <!-- <p>Just find an image and create a URL, not quite implemented width and height yet!</p> -->
+
+            <pre class="bg-white pt-3"><code><a href="http://127.0.0.1:8000/api/id/7">https://127.0.0.1:8000/api</a></code>
             </pre>
 
         </div>
     </section>
-    <div class="container" style="max-width: 1240px;">
+    <!-- <div class="container" style="max-width: 1240px;">
         <div class="row pt-5">
             <div class="col-12 col-md-6">
                 <section class="jumbotron bg-white">
@@ -82,7 +87,7 @@
                         </h1>
                         <p>Just find an image and create a URL, not quite implemented width and height yet!</p>
                         </p>
-                        <pre class="bg-light text-center pt-3"><code><a href="http://127.0.0.1:8000/api/id/1">https://127.0.0.1:8000/api/id/1</a></code>
+                        <pre class="bg-light text-center pt-3"><code><a href="http://127.0.0.1:8000/api/id/6">https://127.0.0.1:8000/api/id/6</a></code>
             </pre>
                     </div>
                 </section>
@@ -90,11 +95,11 @@
             <div class="d-none d-md-none d-md-block col-md-6">
                 <section class="jumbotron text-center bg-white px-0">
                     <div class="container">
-                        <img class="shadow mb-5 bg-white rounded" src="http://127.0.0.1:8000/api/id/1" width="100%">
+                        <img class="shadow mb-5 bg-white rounded" src="http://127.0.0.1:8000/api/id/7" width="100%">
                     </div>
                 </section>
             </div>
         </div>
-    </div>
+    </div> -->
     {% include "base/footer.html" %}
     {% endblock %}
