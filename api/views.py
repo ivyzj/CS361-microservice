@@ -21,6 +21,6 @@ class ImageAPIView(generics.RetrieveAPIView):
 
     def get(self, request, *args, **kwargs):
         renderer_classes = [JPEGRenderer]
-        queryset = Images.objects.get(id=self.kwargs['id']).image
+        queryset = Images.objects.get(title=self.kwargs['title']).image
         data = queryset
         return Response(data, content_type='image/jpg')

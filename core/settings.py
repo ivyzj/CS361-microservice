@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'images',
     'api',
     # 3rd party
-    'rest_framework',
+    # 'rest_framework',
 ]
 
 MIDDLEWARE = [

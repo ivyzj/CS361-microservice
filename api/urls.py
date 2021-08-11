@@ -4,6 +4,6 @@ from .views import ImageAPIView
 
 urlpatterns = [
     path('', ImageAPIView.as_view()),
-    path('id/<id>', ImageAPIView.as_view()),
+    path('title/<title>', ImageAPIView.as_view()),
     #path('', views.ImageAPI, name='post_single'),
 ]
