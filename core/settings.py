@@ -26,7 +26,7 @@ SECRET_KEY = 'ot7*)_z*413csc^kb)g6$@()q*cp)3nwbc_8$enql39r1k4iop'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0',]
+ALLOWED_HOSTS = ['0.0.0.0', 'cs361-micro.herokuapp.com', '127.0.0.1',]
 
 
 # Application definition
